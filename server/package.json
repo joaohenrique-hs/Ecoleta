@@ -7,6 +7,7 @@
     "start": "npx ts-node-dev src/server.ts",
     "knex:migrate": "knex migrate:latest",
     "knex:rollback": "knex migrate:rollback",
+    "knex:seed": "knex seed:run",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
